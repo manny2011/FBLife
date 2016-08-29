@@ -1,0 +1,8 @@
+<com.handmark.pulltorefresh.library.PullToRefreshListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab_home_lv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    ptr:ptrHeaderBackground="#ffff00"
+    tools:context="com.group.yztcedu.fblife.main.home.tabhome.TabHomeFragment" />

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.group.yztcedu.fblife.main.home.HomeTabLayoutDetailsActivity"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/home_tabLayout_details_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#f00"
+            app:navigationIcon="@mipmap/pdgl_icon_back">
+        </android.support.v7.widget.Toolbar>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="频道管理"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="我的频道"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:text="单机增删频道,长按拖拽排序"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:background="#999"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <com.group.yztcedu.fblife.widget.FlowLayout
+        android:background="#fff"
+        android:id="@+id/flowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" >
+    </com.group.yztcedu.fblife.widget.FlowLayout>
+    <View
+        android:background="#999"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+    <TextView
+        android:background="#fff"
+        android:textColor="#000"
+        android:textSize="15sp"
+       android:paddingLeft="10dp"
+        android:text="更多频道"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+</LinearLayout>

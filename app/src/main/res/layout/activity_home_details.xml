@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.group.yztcedu.fblife.main.homedetails.HomeDetailsActivity">
+
+    <ImageView
+        android:id="@+id/home_details_image_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/homeDetails_ll"
+        android:background="@drawable/home_details_button_background_selector"
+        android:scaleType="fitXY"
+        android:src="@mipmap/homedetails" />
+
+    <LinearLayout
+        android:id="@+id/homeDetails_ll"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/home_details_ivBack"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/home_details_button_background_selector"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingRight="60dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/homedetails_back_selector" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/details_shuxin" />
+
+        <ImageView
+            android:id="@+id/home_details_ivWrite"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@drawable/home_details_button_background_selector"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/homedetails_write_selector" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/details_shuxin" />
+
+        <ImageView
+            android:id="@+id/home_details_ivShare"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/home_details_button_background_selector"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+
+            android:src="@drawable/homedetails__share_selector" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/details_shuxin" />
+
+        <ImageView
+            android:id="@+id/home_details_ivCollect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/home_details_button_background_selector"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/homedetails_collect_selector" />
+
+        <ImageView
+            android:layout_width="1dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:src="@mipmap/details_shuxin" />
+
+        <ImageView
+            android:id="@+id/home_details_ivMore"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/home_details_button_background_selector"
+            android:clickable="true"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/homedetails_more_selector" />
+
+
+    </LinearLayout>
+</RelativeLayout>

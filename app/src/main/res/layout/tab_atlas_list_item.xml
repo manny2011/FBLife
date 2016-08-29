@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fff">
+
+    <TextView
+        android:id="@+id/tab_atlas_item_tvName"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:textColor="#000"
+        android:text="adadadasda"
+        android:textSize="15sp"
+
+        android:paddingLeft="5dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+       android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/tab_atlas_item_ivOne"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@mipmap/logo_" />
+
+        <ImageView
+            android:id="@+id/tab_atlas_item_ivTwo"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@mipmap/logo_" />
+
+        <ImageView
+            android:id="@+id/tab_atlas_item_ivThree"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@mipmap/logo_" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/tab_atlas_item_tvTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:paddingLeft="5dp"
+            />
+
+        <TextView
+            android:id="@+id/tab_atlas_item_tvComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:gravity="end"
+            android:paddingRight="5dp"
+             />
+    </RelativeLayout>
+</LinearLayout>

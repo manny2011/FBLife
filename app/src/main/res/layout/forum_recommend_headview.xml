@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout style="@style/horizontal_divider"/>
+    <RadioGroup
+        android:id="@+id/bbs_radio_group_below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="我的收藏"
+            android:textColor="@drawable/forum_header_textcolor"
+            android:gravity="center"
+            android:button="@null"
+            android:padding="10dp"
+            android:layout_height="match_parent" />
+        <LinearLayout style="@style/vertical_divider"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="最近浏览"
+            android:textColor="@drawable/forum_header_textcolor"
+            android:padding="10dp"
+            android:button="@null"
+            android:layout_height="match_parent" />
+        <LinearLayout style="@style/vertical_divider"/>
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="排行榜"
+            android:textColor="@drawable/forum_header_textcolor"
+            android:padding="10dp"
+            android:gravity="center"
+            android:button="@null"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+    <LinearLayout style="@style/horizontal_divider"/>
+    <FrameLayout
+        android:id="@+id/forum_recommend_headerview_container"
+        android:background="#DEDEDE"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F8F8F8"
+    tools:context="com.group.yztcedu.fblife.main.login.SettingActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/home_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#FFFFFF"
+            app:navigationIcon="@mipmap/login_exit">
+        </android.support.v7.widget.Toolbar>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/setting"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+       style="@style/setting_content">
+        <TextView
+            style="@style/setting_textView"
+            android:text="@string/clear"/>
+        <TextView
+            style="@style/setting_textView_right"
+            android:text="488KB"/>
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/setting_content"
+        android:layout_marginTop="2dp">
+        <TextView
+            style="@style/setting_textView"
+            android:text="@string/viewfeedback"/>
+        <TextView
+            style="@style/setting_textView_right"
+            android:text=">"/>
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/setting_content"
+        android:layout_marginTop="2dp">
+        <TextView
+            style="@style/setting_textView"
+            android:text="@string/versionupdate"/>
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/setting_content"
+        android:layout_marginTop="2dp">
+        <TextView
+            style="@style/setting_textView"
+            android:text="@string/about"/>
+        <TextView
+            style="@style/setting_textView_right"
+            android:text=">"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/forum_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+    <RadioGroup
+        android:id="@+id/forum_radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal">
+        <RadioButton
+            android:id="@+id/forum_radioButton_recommend"
+            android:button="@null"
+            android:text="精彩推荐"
+            android:checked="true"
+            android:textColor="@drawable/forum_recommend_textcolor"
+            android:background="@drawable/forum_title_background_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/forum_radioButton_allPlates"
+            android:button="@null"
+            android:text="全部板块"
+            android:textColor="@drawable/forum_recommend_textcolor"
+            android:background="@drawable/forum_title_background_selector"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEE"
+        android:orientation="horizontal"/>
+    <FrameLayout
+        android:id="@+id/forum_container"
+        android:layout_below="@+id/forum_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+</RelativeLayout>
